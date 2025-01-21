@@ -13,6 +13,7 @@ export default {
         primaryHover: "#0047ff",
         bgcColor1: "#F4C8BE",
         bgcColor2: "#361BDB4A",
+        cardColor1: "#FF8A8A",
         textPurple: "rgba(44, 7, 103, 1)",
       },
       boxShadow: {
@@ -20,6 +21,9 @@ export default {
         inputShadow: "0px 0px 39px 0px #361BDB1F",
         bgcShadow1: "0px 0px 170px 170px #F4C8BE",
         bgcShadow2: "0px 0px 190px 150px #361BDB4A",
+        bgcShadow3: "0px 0px 190px 170px #F4C8BE",
+        cardShadowSm1: "0px 0px 28px 18px #FF8A8A",
+        cardShadowMain1: "0px 0px 30px 20px #FF8A8A",
       },
       maxWidth: {
         "screen-lg": "1010.38px",
