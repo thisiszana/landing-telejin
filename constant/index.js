@@ -1,9 +1,10 @@
+import { IoLogoWhatsapp, IoIosSearch } from "react-icons/io";
 import { FaTelegramPlane } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
-import { IoLogoWhatsapp } from "react-icons/io";
 import { IoMenuOutline } from "react-icons/io5";
 
 export const icons = {
+  search: <IoIosSearch />,
   whatsapp: <IoLogoWhatsapp />,
   telegram: <FaTelegramPlane />,
   menuBurger: <IoMenuOutline />,
@@ -12,6 +13,7 @@ export const icons = {
 
 export const images = {
   logo: "/icon/Logo.png",
+  arrow: "/icon/arrowHero.svg",
   eNamad: "/images/imageFooter.png",
 };
 
@@ -35,15 +37,15 @@ export const socialmedia = [
 ];
 
 export const contactEl = [
-  {id:1, title: "پشتیبانی خدمات", href:"/"},
-  {id:2, title: "پشتیبانی فنی", href:"/"},
-  {id:3, title: "ارسال تیکت", href:"/"},
-  {id:4, title: "ثبت شکایات و تخلف", href:"/"},
-]
+  { id: 1, title: "پشتیبانی خدمات", href: "/" },
+  { id: 2, title: "پشتیبانی فنی", href: "/" },
+  { id: 3, title: "ارسال تیکت", href: "/" },
+  { id: 4, title: "ثبت شکایات و تخلف", href: "/" },
+];
 
 export const otherPageEl = [
-  {id:1, title: "قوانین و مقررات", href:"/"},
-  {id:2, title: "حریم خصوصی کاربران", href:"/"},
-  {id:3, title: "مجوزها و افتخارات", href:"/"},
-  {id:4, title: "پنل کاربری", href:"/"},
-]
+  { id: 1, title: "قوانین و مقررات", href: "/" },
+  { id: 2, title: "حریم خصوصی کاربران", href: "/" },
+  { id: 3, title: "مجوزها و افتخارات", href: "/" },
+  { id: 4, title: "پنل کاربری", href: "/" },
+];

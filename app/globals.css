@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html {
-    background-color: #c4c0c0;
-} */
+@keyframes rotateBorder {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -100;
+  }
+}
+
+.rotating-border {
+  animation: rotateBorder 20s linear infinite;
+}
