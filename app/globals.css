@@ -16,6 +16,11 @@ body {
   font-family: "Yekan Bakh", sans-serif;
 }
 
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
 @keyframes rotateBorder {
   0% {
     stroke-dashoffset: 0;

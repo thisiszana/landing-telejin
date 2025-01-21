@@ -22,6 +22,7 @@ export default {
         bgcShadow2: "0px 0px 190px 150px #361BDB4A",
       },
       maxWidth: {
+        "screen-lg": "1010.38px",
         "screen-xl": "1233px",
       },
     },

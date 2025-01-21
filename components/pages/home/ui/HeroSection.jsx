@@ -5,7 +5,7 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <conrainer className="max-w-screen-xl m-auto px-6 lg:px-8 ">
+    <div className="max-w-screen-xl m-auto px-6 lg:px-8 ">
       <div className="relative">
         <div className="max-lg:mt-8 lg:h-[300px] relative flex justify-center max-lg:flex-col lg:items-end">
           {/* Elemans Start */}
@@ -73,6 +73,6 @@ export default function HeroSection() {
           {/* BGC End */}
         </div>
       </div>
-    </conrainer>
+    </div>
   );
 }

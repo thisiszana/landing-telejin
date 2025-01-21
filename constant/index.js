@@ -49,3 +49,41 @@ export const otherPageEl = [
   { id: 3, title: "مجوزها و افتخارات", href: "/" },
   { id: 4, title: "پنل کاربری", href: "/" },
 ];
+
+export const servicesEl = [
+  {
+    id: 1,
+    image: "/images/services/services1.png",
+    title: "پزشک عمومی",
+    count: 638,
+    href: "/",
+  },
+  {
+    id: 2,
+    image: "/images/services/services2.png",
+    title: "متخصص زنان و ماما",
+    count: 568,
+    href: "/",
+  },
+  {
+    id: 3,
+    image: "/images/services/services3.png",
+    title: "روانشناس و روانپزشک",
+    count: 201,
+    href: "/",
+  },
+  {
+    id: 4,
+    image: "/images/services/services4.png",
+    title: "دندان پزشک",
+    count: 23,
+    href: "/",
+  },
+  {
+    id: 5,
+    image: "/images/services/services5.png",
+    title: "پزشک متخصص و فوق تخصص",
+    count: 2538,
+    href: "/",
+  },
+];
