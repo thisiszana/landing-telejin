@@ -38,7 +38,7 @@ export default function () {
                 <p className="text-[10px] leading-[15.5px] py-1 text-[#ac95d1] max-lg:p-0">
                   {ser.count} مورد
                 </p>
-                <button className="rounded-[50px] flex justify-center items-center hover:ring transition-all cursor-pointer bg-primary text-white text-[10px] lg:text-[13px] leading-[15.5px] lg:leading-[20.15px] w-[86px] lg:w-[118.97px] h-[24px] lg:h-[32.71px] mt-2">
+                <button className="rounded-[50px] flex justify-center items-center transition-all cursor-pointer bg-primary text-white text-[10px] lg:text-[13px] leading-[15.5px] lg:leading-[20.15px] w-[86px] lg:w-[118.97px] h-[24px] lg:h-[32.71px] mt-2">
                   مشاهده
                 </button>
               </div>

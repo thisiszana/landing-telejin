@@ -49,7 +49,7 @@ export default function HeroSection() {
           <div className="hidden lg:block absolute left-[193px] top-[48px] xl:left-[225px]">
             <div className="flex items-end gap-2">
               <p className="text-2xl font-medium mb-1 text-[#d87cc9]">بیش از</p>
-              <p className="text-4xl font-bold mb-1 text-[#997cd8]">۲,۰۰۰</p>
+              <p className="text-4xl font-bold mb-1 text-[#997cd8] mr-3">۲,۰۰۰</p>
             </div>
             <p className="text-[24px] text-[#d87cc9] font-medium">
               درخواست ویزیت آنلاین

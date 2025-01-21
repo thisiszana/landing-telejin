@@ -50,7 +50,7 @@ export default function NavDesktop() {
           </ul>
           <div className="w-60 h-9">
             <div>
-              <button className="rounded-[10px] text-base flex justify-center hover:ring transition-all cursor-pointer bg-primary text-white w-full lg:w-36 h-12 lg:h-9 items-center">
+              <button className="rounded-[10px] text-base flex justify-center transition-all cursor-pointer bg-primary text-white w-full lg:w-36 h-12 lg:h-9 items-center">
                 ورود / ثبت نام
               </button>
             </div>
