@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Yekan Bakh";
+  src: local("Yekan Bakh Hairline"), local("Yekan-Bakh-Hairline"),
+    url("/fonts/YekanBakh-Bold.woff2") format("woff2"),
+    url("/fonts/YekanBakh-Bold.woff") format("woff"),
+    url("/fonts/YekanBakh-Bold.ttf") format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  font-family: "Yekan Bakh", sans-serif;
+}
+
 @keyframes rotateBorder {
   0% {
     stroke-dashoffset: 0;

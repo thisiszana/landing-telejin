@@ -35,7 +35,7 @@ export default function HeroSection() {
             </div>
             <div className="w-full h-[47px] lg:w-[480px] px-6 flex items-center gap-3 bg-white lg:justify-center shadow-inputShadow rounded-full">
               <span>{icons.search}</span>
-              <p className="text-[14px] leading-[21.7px] py-2 text-[#565656] font-medium">
+              <p className="text-[14px] leading-[21.7px] text-[#565656] font-medium">
                 جستجو در تخصص، پزشکان و مراکز
               </p>
             </div>
@@ -51,14 +51,16 @@ export default function HeroSection() {
               <p className="text-2xl font-medium mb-1 text-[#d87cc9]">بیش از</p>
               <p className="text-4xl font-bold mb-1 text-[#997cd8]">۲,۰۰۰</p>
             </div>
-            <p className="text-[24px] text-[#d87cc9] font-medium py-2 ">
+            <p className="text-[24px] text-[#d87cc9] font-medium">
               درخواست ویزیت آنلاین
             </p>
           </div>
           <div className="hidden lg:block absolute left-0 xl:left-5 bottom-14">
             <div className="flex items-end gap-4">
-              <p className="text-3xl font-semibold mb-1 text-[#7CA1D8]">بیش از</p>
-              <p className="text-4xl font-bold mb-1 text-[#74CDF2]">25000</p>
+              <p className="text-3xl font-semibold mb-1 text-[#7CA1D8]">
+                بیش از
+              </p>
+              <p className="text-4xl font-bold mb-1 text-[#74CDF2]">۲۵,۰۰۰</p>
             </div>
             <p className="text-2xl font-medium text-[#7CA1D8]">
               پزشک، روانشناس و ماما
