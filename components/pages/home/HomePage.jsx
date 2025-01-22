@@ -3,6 +3,7 @@ import Services from "./ui/Services";
 import OtherServices from "./ui/OtherServices";
 import Expertises from "./ui/Expertises";
 import MainBanner from "./ui/MainBanner";
+import Disease from "./ui/Disease";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       </section>
       <Expertises />
       <MainBanner />
+      <Disease />
     </main>
   );
 }
