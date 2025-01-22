@@ -2,6 +2,7 @@ import { IoLogoWhatsapp, IoIosSearch } from "react-icons/io";
 import { FaTelegramPlane } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoMenuOutline } from "react-icons/io5";
+import { sp } from "@/utils/fn";
 
 export const icons = {
   search: <IoIosSearch />,
@@ -55,35 +56,35 @@ export const servicesEl = [
     id: 1,
     image: "/images/services/services1.png",
     title: "پزشک عمومی",
-    count: 638,
+    count: sp(638),
     href: "/",
   },
   {
     id: 2,
     image: "/images/services/services2.png",
     title: "متخصص زنان و ماما",
-    count: 568,
+    count: sp(568),
     href: "/",
   },
   {
     id: 3,
     image: "/images/services/services3.png",
     title: "روانشناس و روانپزشک",
-    count: 201,
+    count: sp(201),
     href: "/",
   },
   {
     id: 4,
     image: "/images/services/services4.png",
     title: "دندان پزشک",
-    count: 23,
+    count: sp(23),
     href: "/",
   },
   {
     id: 5,
     image: "/images/services/services5.png",
     title: "پزشک متخصص و فوق تخصص",
-    count: 2538,
+    count: sp(2538),
     href: "/",
   },
 ];

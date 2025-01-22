@@ -34,7 +34,7 @@ export default function HeroSection() {
               </svg>
             </div>
             <div className="w-full h-[47px] lg:w-[480px] px-6 flex items-center gap-3 bg-white lg:justify-center shadow-inputShadow rounded-full">
-              <span>{icons.search}</span>
+              <span className="text-[24px] text-black">{icons.search}</span>
               <p className="text-[14px] leading-[21.7px] text-[#565656] font-medium">
                 جستجو در تخصص، پزشکان و مراکز
               </p>
@@ -69,7 +69,7 @@ export default function HeroSection() {
           {/* Elemans End */}
           {/* BGC Start */}
           <div className="hidden lg:block absolute bottom-8 right-5 -z-50 w-1 h-1 bg-bgcColor1 rounded-full shadow-bgcShadow1"></div>
-          <div className="absolute top-0 left-[40] lg:top-[-15px] lg:left-[-5px] -z-50 w-0 h- bg-bgcColor2 rounded-full shadow-bgcShadow2"></div>
+          <div className="absolute top-0 left-[110px] lg:top-[-15px] lg:left-[-5px] -z-50 bg-bgcColor2 rounded-full shadow-bgcShadow2"></div>
           {/* BGC End */}
         </div>
       </div>

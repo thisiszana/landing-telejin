@@ -6,7 +6,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="max-w-screen-xl m-auto px-6 mt-16 mb-4 sm:mt-24 sm:mb-10">
-      <div className="lg:h-96 rounded-[43px] px-4 sm:p-8 lg:p-12 bg-white sm:shadow-headerShadow">
+      <div className="lg:h-96 rounded-[43px] px-4 sm:p-8 lg:p-12 sm:bg-white sm:shadow-headerShadow">
         {/* Mobile breakpoint start */}
         <div className="flex flex-col items-center gap-10 sm:hidden mb-8">
           <Link href="/" className="w-[74.85px] h-[56px]">
@@ -117,7 +117,7 @@ export default function Footer() {
         </div>
         {/* Mobile breakpoint end */}
         <div className="text-center mt-2">
-          <p className="text-black text-[15px] leading-[23.25px]">
+          <p className="text-black text-[15px] leading-[23.25px] font-normal">
             تمامی حقوق متعلق به مامه سوران میباشد.{" "}
           </p>
         </div>

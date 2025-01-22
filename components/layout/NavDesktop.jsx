@@ -39,7 +39,7 @@ export default function NavDesktop() {
               <li key={item.id}>
                 <Link
                   href={item.href}
-                  className={`inline-block font-[700] text-base transition-all ${
+                  className={`inline-block font-bold text-[16px] leading-[24.8px] transition-all ${
                     pathname === item.href ? "text-primaryHover" : "text-black"
                   }`}
                 >
@@ -50,7 +50,7 @@ export default function NavDesktop() {
           </ul>
           <div className="w-60 h-9">
             <div>
-              <button className="rounded-[10px] text-base flex justify-center transition-all cursor-pointer bg-primary text-white w-full lg:w-36 h-12 lg:h-9 items-center">
+              <button className="rounded-[10px] text-[13px] leading-[20.15px] font-bold flex justify-center transition-all cursor-pointer bg-primary text-white w-full lg:w-36 h-12 lg:h-9 items-center">
                 ورود / ثبت نام
               </button>
             </div>

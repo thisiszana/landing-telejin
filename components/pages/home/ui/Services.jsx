@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function () {
   return (
     <div className="max-w-screen-lg xl:max-w-screen-xl m-auto px-0 lg:px-8 max-lg:pb-4">
-      <div className="flex lg:justify-center mt-0 lg:mt-[64px] max-xl:px-6">
+      <div className="flex lg:justify-center mt-0 lg:mt-[64px] px-6">
         <h2 className="hidden lg:block text-2xl text-[#2c0767] font-semibold ">
           ویزیت آنلاین و سایر خدمات
         </h2>
@@ -22,7 +22,7 @@ export default function () {
               className="inline-block font-medium transition-all"
             >
               <div className="flex flex-col items-center shadow-headerShadow py-2 lg:py-4 min-w-[140px] lg:w-[190px] h-[205px] lg:h-[280px]  bg-white rounded-[20px] overflow-hidden  headerShadow">
-                <div className="relative w-[113px] h-[110px] lg:w-[134.34px] lg:h-[134px] overflow-hidden group">
+                <div className="relative w-[113px] h-[110px] lg:w-[134.34px] lg:h-[134px] overflow-hidden">
                   <Image
                     src={ser.image}
                     width={250}
@@ -30,7 +30,7 @@ export default function () {
                     alt={ser.title}
                     className="absolute inset-0 w-full h-full object-cover rounded-[2px]"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white opacity-90 group-hover:opacity-100 transition-opacity"></div>
+                  <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white opacity-100"></div>
                 </div>
                 <h5 className="font-bold  text-[#2c0767] text-[10px] lg:text-[14px] leading-[21.7px] mt-1 lg:mt-2">
                   {ser.title}
