@@ -13,9 +13,9 @@ export default function Disease() {
     }));
   return (
     <div className="max-w-screen-lg zl:max-w-screen-xl mx-auto relative">
-      <div class="hidden lg:block absolute top-0 left-0 -z-50 w-1 h-1 bg-bgcColor5 rounded-full shadow-bgcShadow6"></div>
+      <div className="hidden lg:block absolute top-0 left-0 -z-50 w-1 h-1 bg-bgcColor5 rounded-full shadow-bgcShadow6"></div>
       <div className="flex justify-center mt-[48px] lg:mt-[65px] ">
-        <h2 class="font-bold text-[16px] lg:text-[24px] leading-[24.8px] lg:leading-[37.2px] text-[#2c0767]">
+        <h2 className="font-bold text-[16px] lg:text-[24px] leading-[24.8px] lg:leading-[37.2px] text-[#2c0767]">
           علائم و بیماری های شایع
         </h2>
       </div>
@@ -32,11 +32,11 @@ export default function Disease() {
                   className="w-[72px] h-[72px] border-[2px] rounded-full border-primary"
                 />
                 <div>
-                  <h4 class="font-bold text-[14px] leading-[21.7px] lg:text-[20px] lg:leading-[31px] text-black mb-1">
+                  <h4 className="font-bold text-[14px] leading-[21.7px] lg:text-[20px] lg:leading-[31px] text-black mb-1">
                     {dis.title}
                   </h4>
-                  <div class="flex items-center gap-2 max-sm:mr-2">
-                    <span class="text-[11px] leading-[17.5px] lg:text-[13px] lg:leading-[20.15px] text-primary">
+                  <div className="flex items-center gap-2 max-sm:mr-2">
+                    <span className="text-[11px] leading-[17.5px] lg:text-[13px] lg:leading-[20.15px] text-primary">
                       {dis.btnTitle}
                     </span>
                     <svg
@@ -60,12 +60,12 @@ export default function Disease() {
           ))}
         </div>
       </div>
-      <div class="flex justify-center">
-        <button class="hidden rounded-[50px] lg:flex items-center justify-center cursor-pointer bg-primary text-white text-[13px] w-[126.97px] h-[36.89px] leading-[20.15px] mt-2">
+      <div className="flex justify-center">
+        <button className="hidden rounded-[50px] lg:flex items-center justify-center cursor-pointer bg-primary text-white text-[13px] w-[126.97px] h-[36.89px] leading-[20.15px] mt-2">
           مشاهده بیشتر
         </button>
       </div>
-      <div class="block lg:hidden absolute bottom-10 right-16 overflow-visible -z-50 w-1 h-1 bg-bgcColor3 rounded-full shadow-bgcShadow4"></div>
+      <div className="block lg:hidden absolute bottom-10 right-16 overflow-visible -z-50 w-1 h-1 bg-bgcColor3 rounded-full shadow-bgcShadow4"></div>
     </div>
   );
 }

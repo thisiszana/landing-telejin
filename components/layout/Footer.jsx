@@ -31,13 +31,13 @@ export default function Footer() {
               <Image src={images.logo} width={200} height={200} alt="لوگو" />
             </Link>
             <div>
-              <p className="text-black text-[13px] leading-[23px]">
+              <p className="text-black font-normal text-[15px] leading-[23.25px]">
                 متنی درباره تله‌ژین برای سئو وبسایت در فوتر قراردارد.
               </p>
-              <p className="text-black text-[13px] leading-[23px]">
+              <p className="text-black font-normal text-[15px] leading-[23.25px]">
                 متنی درباره تله‌ژین برای سئو وبسایت در فوتر قراردارد.
               </p>
-              <p className="text-black text-[13px] leading-[23px]">
+              <p className="text-black font-normal text-[15px] leading-[23.25px]">
                 متنی درباره تله‌ژین برای سئو وبسایت در فوتر قراردارد.
               </p>
             </div>
