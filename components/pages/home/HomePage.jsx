@@ -19,7 +19,7 @@ export default function HomePage() {
       <Expertises />
       <MainBanner />
       <Disease />
-      <DoctorCommentsSlider />
+      {/* <DoctorCommentsSlider /> */}
       <AboutCards />
     </main>
   );

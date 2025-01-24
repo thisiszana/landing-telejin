@@ -12,7 +12,7 @@ export default function Disease() {
       href: "/",
     }));
   return (
-    <div className="max-w-screen-lg zl:max-w-screen-xl mx-auto relative">
+    <div className="max-w-screen-lg mx-auto relative">
       <div className="hidden lg:block absolute top-0 left-0 -z-50 w-1 h-1 bg-bgcColor5 rounded-full shadow-bgcShadow6"></div>
       <div className="flex justify-center mt-[48px] lg:mt-[65px] ">
         <h2 className="font-bold text-[16px] lg:text-[24px] leading-[24.8px] lg:leading-[37.2px] text-[#2c0767]">
@@ -23,7 +23,7 @@ export default function Disease() {
         <div className="max-sm:w-[730px] grid grid-cols-3 gap-4 lg:gap-5 max-xl:px-6 ">
           {diseaseEl.map((dis) => (
             <Link href={dis.href} key={dis.id}>
-              <div className="shadow-headerShadow w-full sm:w-full h-[103px] lg:h-[114px] flex justify-center items-center gap-2 lg:gap-3 rounded-[20px] bg-none lg:bg-[#ffffff91] max-lg:backdrop-blur-[107.4] px-3 lg:px-8">
+              <div className="shadow-headerShadow w-full h-[103px] lg:h-[114px] flex justify-between items-center gap-2 lg:gap-[10px] rounded-[20px] bg-none lg:bg-[#ffffff91] max-lg:backdrop-blur-[107.4] px-3 lg:px-8">
                 <Image
                   src={dis.image}
                   width={70}
@@ -36,7 +36,7 @@ export default function Disease() {
                     {dis.title}
                   </h4>
                   <div className="flex items-center gap-2 max-sm:mr-2">
-                    <span className="text-[11px] leading-[17.5px] lg:text-[13px] lg:leading-[20.15px] text-primary">
+                    <span className="text-[11px] leading-[17.5px] lg:text-[13px] lg:leading-[20.15px] text-primary font-bold">
                       {dis.btnTitle}
                     </span>
                     <svg

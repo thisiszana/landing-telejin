@@ -24,25 +24,25 @@ export default function DoctorCommentsSlider() {
 
   return (
     <div className="max-w-screen-lg mx-auto  max-lg:pb-8 relative">
-      <div className="flex max-lg:mb-[30px] justify-center mt-0 lg:mt-[64px] px-6">
+      <div className="flex max-lg:mb-[30px] justify-center mt-0 sm:mt-[64px] px-6">
         <h2 className="text-center lg:text-2xl text-[#2c0767] font-semibold">
           نظرات پزشکان درباره تله ژن
         </h2>
       </div>
-      <div className="relative mt-[15px] flex justify-center items-center bg-sliderGradient w-[380px] h-[314px] lg:w-full lg:h-full rounded-[27px] mx-auto">
+      <div className="relative mt-[15px] flex justify-center items-center bg-sliderGradient w-full h-[350px] sm:h-full rounded-[27px] mx-auto">
         {doctors.map((doctor, index) => (
           <div
             key={index}
             className={`${
               index === currentSlide ? "block" : "hidden"
-            } p-6 text-white flex items-center w-full max-lg:flex-col lg:gap-8 relative`}
+            } p-6 text-white flex items-center w-full sm:flex-col sm:gap-8 relative`}
           >
             <Image
               src={doctor.image}
               width={200}
               height={200}
               alt={doctor.name}
-              className="w-[191px] h-[191px] lg:w-[277px] lg:h-[277px] object-cover absolute -top-[80px] lg:-top-[115px] lg:right-[50px]"
+              className="w-[191px] h-[191px] sm:w-[277px] sm:h-[277px] object-cover absolute -top-[95px] sm:-top-[115px] right-[110px] sm:right-[50px]"
             />
 
             <div className="flex-1 text-center lg:text-right max-sm:mt-[80px] lg:mr-[260px]">
