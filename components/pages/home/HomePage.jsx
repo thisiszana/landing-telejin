@@ -5,6 +5,7 @@ import Expertises from "./ui/Expertises";
 import MainBanner from "./ui/MainBanner";
 import Disease from "./ui/Disease";
 import AboutCards from "./ui/AboutCards";
+import DoctorCommentsSlider from "./ui/DoctorCommentsSlider";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Expertises />
       <MainBanner />
       <Disease />
+      <DoctorCommentsSlider />
       <AboutCards />
     </main>
   );

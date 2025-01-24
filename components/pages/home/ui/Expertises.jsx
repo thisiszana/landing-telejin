@@ -6,7 +6,7 @@ export default function Expertises() {
     .fill(null)
     .map((_, index) => ({
       id: index + 1,
-      image: "/images/liver.jfif",
+      image: "/images/liver.jpg",
       title: "کبد و غدد",
       href: "/",
     }));

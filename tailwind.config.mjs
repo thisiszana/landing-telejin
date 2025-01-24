@@ -33,6 +33,9 @@ export default {
         cardShadowSm1: "0px 0px 28px 18px #FF8A8A",
         cardShadowMain1: "0px 0px 30px 20px #FF8A8A",
       },
+      backgroundImage: {
+        sliderGradient: "linear-gradient(90deg, #1140b9 100%, #013fe0 100%)",
+      },
       maxWidth: {
         "screen-lg": "1010.38px",
         "screen-xl": "1233px",

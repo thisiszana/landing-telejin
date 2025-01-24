@@ -65,6 +65,32 @@ body {
   scrollbar-width: none;
 }
 
+/* .swiper {
+  overflow: visible !important;
+  overflow-x: hidden !important;
+}
+
+.swiper-wrapper {
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  overflow: hidden !important;
+  position: relative;
+} */
+
+/* استایل برای تصاویر */
+.image-outside {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  z-index: 1;
+}
+
 @keyframes rotateBorder {
   0% {
     stroke-dashoffset: 0;

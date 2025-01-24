@@ -1,11 +1,13 @@
+import { FaTelegramPlane, FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { IoLogoWhatsapp, IoIosSearch } from "react-icons/io";
-import { FaTelegramPlane } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoMenuOutline } from "react-icons/io5";
 import { sp } from "@/utils/fn";
 
 export const icons = {
   search: <IoIosSearch />,
+  arrowLeft: <FaArrowLeft />,
+  arrowRight: <FaArrowRight />,
   whatsapp: <IoLogoWhatsapp />,
   telegram: <FaTelegramPlane />,
   menuBurger: <IoMenuOutline />,
