@@ -23,13 +23,13 @@ export default function DoctorCommentsSlider() {
   };
 
   return (
-    <div className="max-w-screen-lg mx-auto  max-lg:pb-8 relative">
+    <div className="max-w-screen-lg mx-auto max-lg:pb-8 relative">
       <div className="flex max-lg:mb-[30px] justify-center mt-0 sm:mt-[64px] px-6">
         <h2 className="text-center lg:text-2xl text-[#2c0767] font-semibold">
           نظرات پزشکان درباره تله ژن
         </h2>
       </div>
-      <div className="relative mt-[15px] flex justify-center items-center bg-sliderGradient w-full h-[350px] sm:h-full rounded-[27px] mx-auto">
+      <div className="relative mt-[50px] flex justify-center items-center bg-sliderGradient w-[380px] sm:w-full h-[350px] sm:h-full rounded-[27px] mx-auto">
         {doctors.map((doctor, index) => (
           <div
             key={index}
