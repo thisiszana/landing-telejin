@@ -6,15 +6,15 @@ export default function () {
   return (
     <div className="max-w-screen-lg xl:max-w-screen-xl m-auto px-0 lg:px-8 max-lg:pb-4">
       <div className="flex lg:justify-center mt-0 lg:mt-[64px] px-6">
-        <h2 className="hidden lg:block text-2xl text-[#2c0767] font-semibold ">
+        <h2 className="hidden lg:block text-2xl text-[#2c0767] font-semibold">
           ویزیت آنلاین و سایر خدمات
         </h2>
         <h2 className="block lg:hidden text-[16px] text-[#2c0767] font-semibold relative leading-[24.8px] top-[24px]">
           ویزیت آنلاین
         </h2>
       </div>
-      <div className="pt-6 pb-8 max-lg:overflow-x-auto no-scrollbar scroll-smooth">
-        <div className="flex justify-start w-fit lg:justify-center flex-row-reverse gap-4 lg:w-full mt-3 lg:mt-8 scroll-smooth max-lg:px-6">
+      <div className="pt-6 max-lg:overflow-x-auto no-scrollbar scroll-smooth">
+        <div className="flex justify-start w-fit lg:justify-center flex-row-reverse gap-4 lg:w-full mt-3 scroll-smooth max-lg:px-6">
           {servicesEl.map((ser) => (
             <Link
               href={ser.href}

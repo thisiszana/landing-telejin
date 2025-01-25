@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function AboutCards() {
   return (
-    <div className="max-w-screen-xl m-auto px-6 lg:px-8 xl:max-w-screen-lg xl:p-0 mt-10 lg:mt-20 relative">
+    <div className="max-w-screen-xl m-auto px-6 lg:px-8 xl:max-w-screen-lg xl:px-0 mt-[20px] lg:mt-20 relative">
       <div className="absolute bottom-40 lg:top-40 right-0 lg:-right-24 -z-50 w-1 h-1 bg-bgcColor6 rounded-full shadow-bgcShadow7"></div>
-      <div className="grid lg:grid-cols-2 gap-6">
-        <div className="max-lg:order-2 lg:h-[525px] grid grid-rows-3 gap-6">
+      <div className="grid lg:grid-cols-2 gap-[20px]">
+        <div className="max-lg:order-2 lg:h-[525px] grid grid-rows-3 gap-[20px]">
           <div className="flex justify-between items-center max-sm:flex-col-reverse max-sm:gap-4 rounded-[30px] backdrop-blur-[107] shadow-headerShadow bg-none lg:bg-white p-4 sm:p-10">
             <div className="max-sm:text-center">
               <h6 className="font-bold text-[20px] leading-[31px] text-black">

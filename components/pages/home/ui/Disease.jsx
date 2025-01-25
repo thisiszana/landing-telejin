@@ -20,10 +20,10 @@ export default function Disease() {
         </h2>
       </div>
       <div className="max-sm:overflow-x-auto no-scrollbar py-8 mt-2">
-        <div className="max-sm:w-[730px] grid grid-cols-3 gap-4 lg:gap-5 max-xl:px-6 ">
+        <div className="max-sm:w-[730px] grid grid-cols-3 gap-4 lg:gap-5 max-lg:px-6">
           {diseaseEl.map((dis) => (
             <Link href={dis.href} key={dis.id}>
-              <div className="shadow-headerShadow w-full h-[103px] lg:h-[114px] flex justify-between items-center gap-2 lg:gap-[10px] rounded-[20px] bg-none lg:bg-[#ffffff91] max-lg:backdrop-blur-[107.4] px-3 lg:px-8">
+              <div className="shadow-headerShadow w-[212px] sm:w-[326.58px] h-[103px] lg:h-[114px] flex items-center gap-0 lg:gap-[10px] rounded-[20px] bg-none lg:bg-[#ffffff91] max-lg:backdrop-blur-[107.4] px-3 lg:px-8">
                 <Image
                   src={dis.image}
                   width={70}
@@ -35,7 +35,7 @@ export default function Disease() {
                   <h4 className="font-bold text-[14px] leading-[21.7px] lg:text-[20px] lg:leading-[31px] text-black mb-1">
                     {dis.title}
                   </h4>
-                  <div className="flex items-center gap-2 max-sm:mr-2">
+                  <div className="flex items-center gap-2 max-sm:mr-[20px]">
                     <span className="text-[11px] leading-[17.5px] lg:text-[13px] lg:leading-[20.15px] text-primary font-bold">
                       {dis.btnTitle}
                     </span>

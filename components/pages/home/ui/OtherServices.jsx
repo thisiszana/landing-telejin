@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// This section is different from the section inside figma, because it is customized.
+
 export default function OtherServices() {
   return (
     <div className="max-w-screen-xl lg:max-w-screen-lg m-auto px-6 lg:px-8 xl:px-0 lg:mt-6">
@@ -24,10 +26,10 @@ export default function OtherServices() {
               <h5 className="font-bold text-[#2c0767] text-[13px] lg:text-[14px] leading-[20.15px] lg:leading-[21.7px] text-center ">
                 خدمات زیبایی و جوانسازی
               </h5>
-              <p className="text-[12px] py-2 text-[#2c0767] leading-[18.6px] max-lg:p-0 pb-0">
+              <p className="text-[12px] text-[#2c0767] leading-[18.6px]">
                 ویژه بانوان و آقایان
               </p>
-              <p className="text-[10px] leading-[15.5px] py-1 text-[#ac95d1] max-lg:p-0 mt-1">
+              <p className="text-[10px] leading-[15.5px] pt-1 text-[#ac95d1] max-lg:p-0">
                 ۲۵۳۸ مورد
               </p>
             </div>

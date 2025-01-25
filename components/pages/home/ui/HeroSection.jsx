@@ -11,7 +11,7 @@ export default function HeroSection() {
           {/* Elemans Start */}
           <div className="sm:mb-2 lg:absolute right-[192px] xl:right-[224px] top-[56px]">
             <div>
-              <h2 className="text-base sm:text-lg lg:text-2xl font-medium mb-1 max-lg:h-[48] text-textPurple">
+              <h2 className="text-base sm:text-lg lg:text-2xl font-bold mb-1 max-lg:h-[48] text-textPurple">
                 دریافت هرگونه خدمات <br />
                 پزشکی، پرستاری و مراقبتی بصورت آنلاین
               </h2>
@@ -57,7 +57,7 @@ export default function HeroSection() {
           </div>
           <div className="hidden lg:block absolute left-0 xl:left-5 bottom-14">
             <div className="flex items-end gap-4">
-              <p className="text-3xl font-semibold mb-1 text-[#7CA1D8]">
+              <p className="text-2xl font-semibold mb-1 text-[#7CA1D8]">
                 بیش از
               </p>
               <p className="text-4xl font-bold mb-1 text-[#74CDF2]">۲۵,۰۰۰</p>

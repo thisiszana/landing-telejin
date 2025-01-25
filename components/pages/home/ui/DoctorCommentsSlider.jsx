@@ -23,13 +23,13 @@ export default function DoctorCommentsSlider() {
   };
 
   return (
-    <div className="max-w-screen-lg mx-auto max-lg:pb-8 relative">
+    <div className="max-w-screen-lg mx-auto lg:pb-8 relative px-6 lg:px-8 xl:px-0">
       <div className="flex max-lg:mb-[30px] justify-center mt-0 sm:mt-[64px] px-6">
         <h2 className="text-center lg:text-2xl text-[#2c0767] font-semibold">
           نظرات پزشکان درباره تله ژن
         </h2>
       </div>
-      <div className="relative mt-[50px] flex justify-center items-center bg-sliderGradient w-[380px] sm:w-full h-[350px] sm:h-full rounded-[27px] mx-auto">
+      <div className="relative mt-[50px] lg:mt-[15px] flex justify-center items-center bg-sliderGradient sm:w-full h-[350px] sm:max-h-[172px] rounded-[27px] mx-auto">
         {doctors.map((doctor, index) => (
           <div
             key={index}
@@ -42,10 +42,10 @@ export default function DoctorCommentsSlider() {
               width={200}
               height={200}
               alt={doctor.name}
-              className="w-[191px] h-[191px] sm:w-[277px] sm:h-[277px] object-cover absolute -top-[95px] sm:-top-[115px] right-[110px] sm:right-[50px]"
+              className="w-[191px] h-[191px] sm:w-[277px] sm:h-[277px] object-cover absolute -top-[95px] sm:-top-[110px] right-[50%] max-sm:translate-x-[50%] sm:right-[50px]"
             />
 
-            <div className="flex-1 text-center lg:text-right max-sm:mt-[80px] lg:mr-[260px]">
+            <div className="flex-1 text-center lg:text-right max-sm:mt-[80px]">
               <h3 className="text-[32px] leading-[49.6px] font-bold">
                 {doctor.name}
               </h3>
@@ -102,7 +102,8 @@ export default function DoctorCommentsSlider() {
           ></button>
         ))}
       </div>
-      <div className="block lg:hidden absolute top-44 -left-0 overflow-visible -z-50 w-1 h-1 bg-bgcColor4 rounded-full shadow-bgcShadow5"></div>
+      <div className="hidden sm:block absolute lg:top-[250px] lg:left-[-70px] -z-50 bg-bgcColor2 rounded-full shadow-bgcShadow2"></div>
+      <div className="block sm:hidden absolute top- left-[90px] -z-50 bg-bgcColor7 rounded-full shadow-bgcShadow8"></div>
     </div>
   );
 }

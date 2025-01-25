@@ -14,7 +14,7 @@ export default function HomePage() {
       <section className="relative">
         <Services />
         <OtherServices />
-        <div className="block lg:hidden absolute bottom-[112px] right-5 -z-50 bg-bgcColor1 rounded-full shadow-bgcShadow3"></div>
+        <div className="block lg:hidden absolute bottom-[112px] right-[100px] -z-50 bg-bgcColor1 rounded-full shadow-bgcShadow3"></div>
       </section>
       <Expertises />
       <MainBanner />
