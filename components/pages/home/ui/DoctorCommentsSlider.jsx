@@ -23,7 +23,7 @@ export default function DoctorCommentsSlider() {
   };
 
   return (
-    <div className="max-w-screen-lg mx-auto lg:pb-8 relative px-6 lg:px-8 xl:px-0">
+    <div className="max-w-screen-lg m-auto lg:pb-8 relative px-6 lg:px-8 xl:px-0">
       <div className="flex max-lg:mb-[30px] justify-center mt-0 sm:mt-[64px] px-6">
         <h2 className="text-center lg:text-2xl text-[#2c0767] font-semibold">
           نظرات پزشکان درباره تله ژن

@@ -13,7 +13,7 @@ export default function () {
           ویزیت آنلاین
         </h2>
       </div>
-      <div className="pt-6 max-lg:overflow-x-auto no-scrollbar scroll-smooth">
+      <div className="pt-6 max-lg:overflow-x-auto no-scrollbar scroll-smooth max-sm:pb-8">
         <div className="flex justify-start w-fit lg:justify-center flex-row-reverse gap-4 lg:w-full mt-3 scroll-smooth max-lg:px-6">
           {servicesEl.map((ser) => (
             <Link
